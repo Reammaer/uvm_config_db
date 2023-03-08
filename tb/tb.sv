@@ -37,7 +37,7 @@ module tb;
         // Connect uvm_test_top interface with test
         uvm_config_db#(virtual dut_if)::set(null, "uvm_test_top", "dut_if", _if);
         // Run appropriate test
-        run_test("base_test");
+        run_test();
     end
 
 endmodule: tb
