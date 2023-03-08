@@ -15,66 +15,78 @@
 # //
 # do ../tcl/script.tcl
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:48:42 on Mar 08,2023
+# Start time: 22:25:08 on Mar 08,2023
 # vlog -reportprogress 300 -work work ../sources/dut_if.sv 
 # -- Compiling interface dut_if
 # 
 # Top level modules:
 # 	--none--
-# End time: 21:48:42 on Mar 08,2023, Elapsed time: 0:00:00
+# End time: 22:25:08 on Mar 08,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:48:42 on Mar 08,2023
+# Start time: 22:25:08 on Mar 08,2023
 # vlog -reportprogress 300 -work work ../sources/dut_test.sv 
 # -- Compiling module dut_test
 # 
 # Top level modules:
 # 	dut_test
-# End time: 21:48:42 on Mar 08,2023, Elapsed time: 0:00:00
+# End time: 22:25:08 on Mar 08,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:48:42 on Mar 08,2023
+# Start time: 22:25:08 on Mar 08,2023
 # vlog -reportprogress 300 -work work ../tb/tb.sv 
 # ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
 # ** Error: ** while parsing file included at ../tb/tb.sv(5)
 # ** while parsing file included at ../sources/uvm_class_pkg.svh(9)
-# ** at ..\sources\uvm_classes\environment.sv(34): (vlog-2730) Undefined variable: 'uvm_congif_db'.
+# ** at ..\sources\uvm_classes\environment.sv(8): Invalid type 'agent_2'. Please check the type of the variable 'agent_2_h'.
+# ** Error: ** while parsing file included at ../tb/tb.sv(5)
+# ** while parsing file included at ../sources/uvm_class_pkg.svh(9)
+# ** at ..\sources\uvm_classes\environment.sv(45): (vlog-2730) Undefined variable: 'agent_2_h'.
+# ** Error: ** while parsing file included at ../tb/tb.sv(5)
+# ** while parsing file included at ../sources/uvm_class_pkg.svh(9)
+# ** at ..\sources\uvm_classes\environment.sv(45): (vlog-2164) Class or package 'agent_2' not found.
+# ** Error: ** while parsing file included at ../tb/tb.sv(5)
+# ** while parsing file included at ../sources/uvm_class_pkg.svh(9)
+# ** at ..\sources\uvm_classes\environment.sv(45): (vlog-2730) Undefined variable: 'agent_2'.
 # ** Error: (vlog-13069) ** while parsing file included at ../tb/tb.sv(5)
 # ** while parsing file included at ../sources/uvm_class_pkg.svh(9)
-# ** at ..\sources\uvm_classes\environment.sv(34): near "#": syntax error, unexpected '#'.
-# ** Error (suppressible): ** while parsing file included at ../tb/tb.sv(5)
-# ** while parsing file included at ../sources/uvm_class_pkg.svh(10)
-# ** at ..\sources\uvm_classes\environment.sv(41): (vlog-13163) End label 'connect_phase' does not match function name on line 23.
+# ** at ..\sources\uvm_classes\environment.sv(45): near "::": syntax error, unexpected ::, expecting ';'.
 # ** Error: ../tb/tb.sv(6): (vlog-13006) Could not find the package (uvm_class_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
-# End time: 21:48:43 on Mar 08,2023, Elapsed time: 0:00:01
-# Errors: 4, Warnings: 0
+# End time: 22:25:08 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
 # ** Error: D:/Progs/QuestaSim/win64/vlog failed.
 # Error in macro ./../tcl/script.tcl line 11
 # D:/Progs/QuestaSim/win64/vlog failed.
 #     while executing
 # "vlog -work work ../tb/tb.sv"
+
+
+
+
+
+
 do ../tcl/script.tcl
 # ** Warning: (vlib-34) Library already exists at "work".
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:48:57 on Mar 08,2023
+# Start time: 22:25:29 on Mar 08,2023
 # vlog -reportprogress 300 -work work ../sources/dut_if.sv 
 # -- Compiling interface dut_if
 # 
 # Top level modules:
 # 	--none--
-# End time: 21:48:57 on Mar 08,2023, Elapsed time: 0:00:00
+# End time: 22:25:29 on Mar 08,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:48:57 on Mar 08,2023
+# Start time: 22:25:29 on Mar 08,2023
 # vlog -reportprogress 300 -work work ../sources/dut_test.sv 
 # -- Compiling module dut_test
 # 
 # Top level modules:
 # 	dut_test
-# End time: 21:48:57 on Mar 08,2023, Elapsed time: 0:00:00
+# End time: 22:25:29 on Mar 08,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:48:57 on Mar 08,2023
+# Start time: 22:25:29 on Mar 08,2023
 # vlog -reportprogress 300 -work work ../tb/tb.sv 
 # ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
 # -- Compiling package tb_sv_unit
@@ -85,1601 +97,7 @@ do ../tcl/script.tcl
 # 
 # Top level modules:
 # 	tb
-# End time: 21:48:57 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb 
-# Start time: 21:48:58 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    4
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 21:50:11 on Mar 08,2023, Elapsed time: 0:01:13
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:50:11 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 21:50:11 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:50:11 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 21:50:11 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:50:11 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 21:50:12 on Mar 08,2023, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb 
-# Start time: 21:50:12 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO ..\sources\uvm_classes\environment.sv(37) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=          2
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    5
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 21:50:35 on Mar 08,2023, Elapsed time: 0:00:23
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:50:35 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 21:50:35 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:50:35 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 21:50:35 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:50:35 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 21:50:35 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb 
-# Start time: 21:50:35 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO ..\sources\uvm_classes\environment.sv(37) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=          2
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    5
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 21:55:08 on Mar 08,2023, Elapsed time: 0:04:33
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:55:09 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 21:55:09 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:55:09 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 21:55:09 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:55:09 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 21:55:09 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb 
-# Start time: 21:55:09 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=          2 color=blue
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    5
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 21:56:33 on Mar 08,2023, Elapsed time: 0:01:24
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:56:33 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 21:56:33 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:56:33 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 21:56:33 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:56:33 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 21:56:33 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb 
-# Start time: 21:56:34 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=2 color=blue
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    5
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 21:58:37 on Mar 08,2023, Elapsed time: 0:02:03
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:58:37 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 21:58:37 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:58:37 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 21:58:37 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:58:37 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 21:58:37 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb   
-# Start time: 21:58:37 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# ** Error: (vsim-3170) Could not find ' '.
-#         Searched libraries:
-#             C:/Users/boss/Desktop/test/modelsim/work
-#             D:/Progs/QuestaSim/uvm-1.1d
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./../tcl/script.tcl PAUSED at line 13
-do ../tcl/script.tcl
-# End time: 21:59:05 on Mar 08,2023, Elapsed time: 0:00:28
-# Errors: 1, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:59:05 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 21:59:05 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:59:05 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 21:59:05 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:59:05 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 21:59:05 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h," a, 6 = uvm_test_top.env_h, color, red "+uvm_set_config_string" 
-# Start time: 21:59:05 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# ** Error: (vsim-3170) Could not find 'a,'.
-#         Searched libraries:
-#             C:/Users/boss/Desktop/test/modelsim/work
-#             D:/Progs/QuestaSim/uvm-1.1d
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./../tcl/script.tcl PAUSED at line 14
-do ../tcl/script.tcl
-# End time: 21:59:21 on Mar 08,2023, Elapsed time: 0:00:16
-# Errors: 1, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:59:21 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 21:59:21 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:59:21 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 21:59:21 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 21:59:21 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 21:59:21 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h," a, 6 = uvm_test_top.env_h, color, red "+uvm_set_config_string" 
-# Start time: 21:59:21 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# ** Error: (vsim-3170) Could not find 'a,'.
-#         Searched libraries:
-#             C:/Users/boss/Desktop/test/modelsim/work
-#             D:/Progs/QuestaSim/uvm-1.1d
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./../tcl/script.tcl PAUSED at line 13
-do ../tcl/script.tcl
-# End time: 22:00:11 on Mar 08,2023, Elapsed time: 0:00:50
-# Errors: 1, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:00:11 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:00:11 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:00:11 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:00:11 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:00:11 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:00:11 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a,6" 
-# Start time: 22:00:11 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=blue
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    6
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:00:27 on Mar 08,2023, Elapsed time: 0:00:16
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:00:27 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:00:27 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:00:27 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:00:27 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:00:27 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:00:27 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a," 6 
-# Start time: 22:00:27 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# ** Error: (vsim-3170) Could not find '6'.
-#         Searched libraries:
-#             C:/Users/boss/Desktop/test/modelsim/work
-#             D:/Progs/QuestaSim/uvm-1.1d
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./../tcl/script.tcl PAUSED at line 13
-do ../tcl/script.tcl
-# End time: 22:03:39 on Mar 08,2023, Elapsed time: 0:03:12
-# Errors: 1, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:03:39 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:03:39 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:03:39 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:03:39 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:03:39 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:03:40 on Mar 08,2023, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# ** Error: wrong # args: should be "set varName ?newValue?"
-# Error in macro ./../tcl/script.tcl line 16
-# wrong # args: should be "set varName ?newValue?"
-#     while executing
-# "set (int variable) a"
-do ../tcl/script.tcl
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:04:04 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:04:04 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:04:05 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:04:05 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:04:05 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:04:05 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# ** Error: can't read "((int variable)": no such variable
-# Error in macro ./../tcl/script.tcl line 21
-# can't read "((int variable)": no such variable
-#     while executing
-# "vsim -novopt -t 1ns work.tb +uvm_set_config_int=uvm_test_top.env_h,$((int variable)),$a"
-do ../tcl/script.tcl
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:05:07 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:05:07 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:05:07 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:05:07 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:05:07 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:05:07 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a,6" 
-# Start time: 22:05:07 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=blue
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    6
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:05:32 on Mar 08,2023, Elapsed time: 0:00:25
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:05:32 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:05:32 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:05:32 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:05:32 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:05:33 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:05:33 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a,6" 
-# Start time: 22:05:33 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=blue
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    6
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     1
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:07:24 on Mar 08,2023, Elapsed time: 0:01:51
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:07:24 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:07:24 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:07:24 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:07:24 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:07:24 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:07:24 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# color
-# pink
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_int=uvm_test_top.env_h,color,pink" 
-# Start time: 22:07:24 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,color,pink
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=blue
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    7
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     2
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:08:22 on Mar 08,2023, Elapsed time: 0:00:58
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:08:23 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:08:23 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:08:23 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:08:23 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:08:23 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:08:23 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# color
-# pink
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_int=uvm_test_top.env_h,color,pink" 
-# Start time: 22:08:23 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,color,pink
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=blue
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    7
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     2
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:08:57 on Mar 08,2023, Elapsed time: 0:00:34
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:08:57 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:08:57 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:08:57 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:08:57 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:08:57 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:08:57 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# color
-# pink
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_string=uvm_test_top.env_h,color,pink" 
-# Start time: 22:08:57 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_string=uvm_test_top.env_h,color,pink
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    7
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     2
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:09:34 on Mar 08,2023, Elapsed time: 0:00:37
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:09:35 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:09:35 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:09:35 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:09:35 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:09:35 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:09:35 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# color
-# pink
-# vsim -novopt -t 1ns work.tb "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_string=uvm_test_top.env_h,color,pink" 
-# Start time: 22:09:35 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_string=uvm_test_top.env_h,color,pink
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    7
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     2
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:10:31 on Mar 08,2023, Elapsed time: 0:00:56
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:10:31 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:10:31 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:10:31 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:10:31 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:10:31 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:10:31 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# a
-# 6
-# color
-# pink
-# vsim -novopt -t 1ns work.tb "+UVM_TESTNAME=base_test" "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_string=uvm_test_top.env_h,color,pink" 
-# Start time: 22:10:31 on Mar 08,2023
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
-# Loading sv_std.std
-# Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
-# Loading mtiUvm.uvm_pkg
-# Loading work.uvm_class_pkg
-# Loading work.tb_sv_unit
-# Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
-# Loading work.dut_test
-# Loading mtiUvm.questa_uvm_pkg
-# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
-# ----------------------------------------------------------------
-# UVM-1.1d
-# (C) 2007-2013 Mentor Graphics Corporation
-# (C) 2007-2013 Cadence Design Systems, Inc.
-# (C) 2006-2013 Synopsys, Inc.
-# (C) 2011-2013 Cypress Semiconductor Corp.
-# ----------------------------------------------------------------
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
-# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_string=uvm_test_top.env_h,color,pink
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
-# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
-# 
-# --- UVM Report Summary ---
-# 
-# ** Report counts by severity
-# UVM_INFO :    7
-# UVM_WARNING :    0
-# UVM_ERROR :    0
-# UVM_FATAL :    0
-# ** Report counts by id
-# [Agent]     1
-# [GET_VALUEs]     1
-# [Questa UVM]     2
-# [RNTST]     1
-# [UVM_CMDLINE_PROC]     2
-# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 0 ns  Iteration: 215  Instance: /tb
-# 1
-# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-do ../tcl/script.tcl
-# End time: 22:11:29 on Mar 08,2023, Elapsed time: 0:00:58
-# Errors: 0, Warnings: 1
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:11:29 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
-# -- Compiling interface dut_if
-# 
-# Top level modules:
-# 	--none--
-# End time: 22:11:29 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:11:29 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
-# -- Compiling module dut_test
-# 
-# Top level modules:
-# 	dut_test
-# End time: 22:11:29 on Mar 08,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 22:11:29 on Mar 08,2023
-# vlog -reportprogress 300 -work work ../tb/tb.sv 
-# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
-# -- Compiling package tb_sv_unit
-# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-# -- Importing package uvm_class_pkg
-# -- Compiling package uvm_class_pkg
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 22:11:30 on Mar 08,2023, Elapsed time: 0:00:01
+# End time: 22:25:30 on Mar 08,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # base_test
 # a
@@ -1687,19 +105,19 @@ do ../tcl/script.tcl
 # color
 # pink
 # vsim -novopt -t 1ns work.tb "+UVM_TESTNAME=base_test" "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_string=uvm_test_top.env_h,color,pink" 
-# Start time: 22:11:30 on Mar 08,2023
+# Start time: 22:25:30 on Mar 08,2023
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.tb_sv_unit
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_if
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb_sv_unit
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_if
 # Loading sv_std.std
 # Loading work.dut_if
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.uvm_class_pkg
+# Refreshing D:/Git/uvm_config_db/modelsim/work.uvm_class_pkg
 # Loading mtiUvm.uvm_pkg
 # Loading work.uvm_class_pkg
 # Loading work.tb_sv_unit
 # Loading work.tb
-# Refreshing C:/Users/boss/Desktop/test/modelsim/work.dut_test
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_test
 # Loading work.dut_test
 # Loading mtiUvm.questa_uvm_pkg
 # Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
@@ -1728,18 +146,20 @@ do ../tcl/script.tcl
 # UVM_INFO @ 0: reporter [RNTST] Running test base_test...
 # UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
 # UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_string=uvm_test_top.env_h,color,pink
-# UVM_INFO ..\sources\uvm_classes\environment.sv(41) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
+# UVM_INFO ..\sources\uvm_classes\environment.sv(42) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
+# UVM_INFO ..\sources\uvm_classes\agent_2.sv(28) @ 0: uvm_test_top.env_h.agent_2_h [Agent_2] k=0
 # UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
 # 
 # --- UVM Report Summary ---
 # 
 # ** Report counts by severity
-# UVM_INFO :    7
+# UVM_INFO :    8
 # UVM_WARNING :    0
 # UVM_ERROR :    0
 # UVM_FATAL :    0
 # ** Report counts by id
 # [Agent]     1
+# [Agent_2]     1
 # [GET_VALUEs]     1
 # [Questa UVM]     2
 # [RNTST]     1
@@ -1748,5 +168,341 @@ do ../tcl/script.tcl
 #    Time: 0 ns  Iteration: 215  Instance: /tb
 # 1
 # Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-# End time: 22:11:53 on Mar 08,2023, Elapsed time: 0:00:23
+do ../tcl/script.tcl
+# End time: 22:37:48 on Mar 08,2023, Elapsed time: 0:12:18
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:37:48 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
+# -- Compiling interface dut_if
+# 
+# Top level modules:
+# 	--none--
+# End time: 22:37:48 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:37:48 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
+# -- Compiling module dut_test
+# 
+# Top level modules:
+# 	dut_test
+# End time: 22:37:48 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:37:48 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../tb/tb.sv 
+# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package tb_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package uvm_class_pkg
+# -- Compiling package uvm_class_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 22:37:49 on Mar 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# base_test
+# a
+# 6
+# color
+# pink
+# vsim -novopt -t 1ns work.tb "+UVM_TESTNAME=base_test" "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_string=uvm_test_top.env_h,color,pink" 
+# Start time: 22:37:49 on Mar 08,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb_sv_unit
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_if
+# Loading sv_std.std
+# Loading work.dut_if
+# Refreshing D:/Git/uvm_config_db/modelsim/work.uvm_class_pkg
+# Loading mtiUvm.uvm_pkg
+# Loading work.uvm_class_pkg
+# Loading work.tb_sv_unit
+# Loading work.tb
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_test
+# Loading work.dut_test
+# Loading mtiUvm.questa_uvm_pkg
+# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
+# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_string=uvm_test_top.env_h,color,pink
+# UVM_INFO ..\sources\uvm_classes\environment.sv(42) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
+# UVM_INFO ..\sources\uvm_classes\agent_2.sv(28) @ 0: uvm_test_top.env_h.agent_2_h [Agent_2] k=0
+# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Agent]     1
+# [Agent_2]     1
+# [GET_VALUEs]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [UVM_CMDLINE_PROC]     2
+# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 0 ns  Iteration: 215  Instance: /tb
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+
+
+
+
+
+
+
+
+
+do ../tcl/script.tcl
+# End time: 22:38:54 on Mar 08,2023, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:38:54 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
+# -- Compiling interface dut_if
+# 
+# Top level modules:
+# 	--none--
+# End time: 22:38:54 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:38:54 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
+# -- Compiling module dut_test
+# 
+# Top level modules:
+# 	dut_test
+# End time: 22:38:54 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:38:54 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../tb/tb.sv 
+# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package tb_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package uvm_class_pkg
+# -- Compiling package uvm_class_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 22:38:54 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# base_test
+# a
+# 6
+# color
+# pink
+# vsim -novopt -t 1ns work.tb "+UVM_TESTNAME=base_test" "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_string=uvm_test_top.env_h,color,pink" 
+# Start time: 22:38:54 on Mar 08,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb_sv_unit
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_if
+# Loading sv_std.std
+# Loading work.dut_if
+# Refreshing D:/Git/uvm_config_db/modelsim/work.uvm_class_pkg
+# Loading mtiUvm.uvm_pkg
+# Loading work.uvm_class_pkg
+# Loading work.tb_sv_unit
+# Loading work.tb
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_test
+# Loading work.dut_test
+# Loading mtiUvm.questa_uvm_pkg
+# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
+# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_string=uvm_test_top.env_h,color,pink
+# UVM_INFO ..\sources\uvm_classes\environment.sv(42) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
+# UVM_INFO ..\sources\uvm_classes\agent_2.sv(28) @ 0: uvm_test_top.env_h.agent_2_h [Agent_2] k=101
+# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Agent]     1
+# [Agent_2]     1
+# [GET_VALUEs]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [UVM_CMDLINE_PROC]     2
+# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 0 ns  Iteration: 215  Instance: /tb
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+
+
+
+
+
+
+
+
+
+
+
+
+do ../tcl/script.tcl
+# End time: 22:39:21 on Mar 08,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:39:22 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../sources/dut_if.sv 
+# -- Compiling interface dut_if
+# 
+# Top level modules:
+# 	--none--
+# End time: 22:39:22 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:39:22 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../sources/dut_test.sv 
+# -- Compiling module dut_test
+# 
+# Top level modules:
+# 	dut_test
+# End time: 22:39:22 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 22:39:22 on Mar 08,2023
+# vlog -reportprogress 300 -work work ../tb/tb.sv 
+# ** Note: (vlog-2286) ../tb/tb.sv(2): Using implicit +incdir+D:/Progs/QuestaSim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package tb_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package uvm_class_pkg
+# -- Compiling package uvm_class_pkg
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 22:39:22 on Mar 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# base_test
+# a
+# 6
+# color
+# pink
+# vsim -novopt -t 1ns work.tb "+UVM_TESTNAME=base_test" "+uvm_set_config_int=uvm_test_top.env_h,a,6" "+uvm_set_config_string=uvm_test_top.env_h,color,pink" 
+# Start time: 22:39:22 on Mar 08,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb
+# Refreshing D:/Git/uvm_config_db/modelsim/work.tb_sv_unit
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_if
+# Loading sv_std.std
+# Loading work.dut_if
+# Refreshing D:/Git/uvm_config_db/modelsim/work.uvm_class_pkg
+# Loading mtiUvm.uvm_pkg
+# Loading work.uvm_class_pkg
+# Loading work.tb_sv_unit
+# Loading work.tb
+# Refreshing D:/Git/uvm_config_db/modelsim/work.dut_test
+# Loading work.dut_test
+# Loading mtiUvm.questa_uvm_pkg
+# Loading D:/Progs/QuestaSim/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=uvm_test_top.env_h,a,6
+# UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_string=uvm_test_top.env_h,color,pink
+# UVM_INFO ..\sources\uvm_classes\environment.sv(42) @ 0: uvm_test_top.env_h [GET_VALUEs] The value of a=6 color=pink
+# UVM_INFO ..\sources\uvm_classes\agent_2.sv(28) @ 0: uvm_test_top.env_h.agent_2_h [Agent_2] k=101
+# UVM_INFO ..\sources\uvm_classes\agent.sv(28) @ 0: uvm_test_top.env_h.agent_h [Agent] i = 111
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Agent]     1
+# [Agent_2]     1
+# [GET_VALUEs]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [UVM_CMDLINE_PROC]     2
+# ** Note: $finish    : D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 0 ns  Iteration: 215  Instance: /tb
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at D:/Progs/QuestaSim/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# End time: 22:41:30 on Mar 08,2023, Elapsed time: 0:02:08
 # Errors: 0, Warnings: 1

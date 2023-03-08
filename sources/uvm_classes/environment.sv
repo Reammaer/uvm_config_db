@@ -4,7 +4,8 @@ class environment extends uvm_env;
     `uvm_component_utils(environment)
 
     // Agent handle
-    agent agent_h;
+    agent   agent_h;
+    agent_2 agent_2_h;
 
     // Comand Line variables
     int    a;
@@ -39,6 +40,12 @@ function void environment::build_phase(uvm_phase phase);
     end
     `uvm_info("GET_VALUEs", $psprintf("The value of a=%0d color=%s", a, color),
                             UVM_LOW)
+
+    // Create a new agent
+    agent_2_h = agent_2::type_id::create("agent_2_h", this);  
+    // Cross Hierarchical Access
+    uvm_config_db#(int)::set(uvm_root::get(), "uvm_test_top.env_h.agent_2_h", "k", 101);
+
 endfunction: build_phase
 
 function void environment::connect_phase(uvm_phase phase);
